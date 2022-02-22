@@ -25,4 +25,7 @@
 .footer h1:hover{
     color: tomato;
 }
+.footer p:hover{
+    color: wheat;
+}
 /* contact end  */
