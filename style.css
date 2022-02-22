@@ -6,3 +6,40 @@
 /* ABOUT US CSS */
 
 /* ABOUT US CSS END */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about{
+    margin: 0px;
+    padding: 50px;
+    background:white;
+    
+}
+
+#text_div{
+    margin: 0px 100px 0px 100px;
+    width: 40%;
+}
+
+h1{
+    font: 800;
+    font-size: 56px;
+    padding: 0;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.description{
+    font-size: 21px;
+}
+
+#wave{
+    position: fixed;
+    opacity: 50;
+    bottom: 0;
+}
