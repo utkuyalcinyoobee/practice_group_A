@@ -3,7 +3,90 @@
     margin: 40px auto;
     text-align: justify;
 }
+/* HEADER CSS */
+.header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: 100px;;
 
+}
+
+/* .links_div{
+
+} */
+
+/* HEADER CSS END */
+
+/* ABOUT US CSS */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about{
+    /* margin-top: 600px; */
+    margin-bottom: 200px;
+    padding: 50px;
+    background:white;
+    display: flex;
+    justify-content: space-between;  
+}
+
+#text_div{
+    margin: 0px 100px 0px 100px;
+    width: 40%;
+    z-index: 9;
+    position: absolute;
+    top: 50px;
+}
+
+h1{
+    font: 800;
+    font-size: 56px;
+    padding: 0;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.description{
+    font-size: 21px;
+}
+
+#box_colour{
+    background: lightskyblue;
+    width: 200px;
+    position: relative;
+    z-index: 0;
+    height: 200px;
+}
+
+#box_colour_2{
+    background: lightskyblue;
+    width: 70%;
+    margin: 150px 0px;
+    position: relative;
+    height: 200px;
+}
+
+#image_about img{
+   width: 300px;
+   height: 250px;
+   position: absolute; 
+    z-index: 10;
+    right: 200px;
+    top: 100px;
+    border: lightskyblue 10px solid;
+}
+#wave{
+    position: fixed;
+    opacity: 50;
+    bottom: 0;
+}
+/* ABOUT US CSS END */
 
 
 
@@ -104,13 +187,13 @@
 
 
 /* ABOUT US CSS */
-#about{
+/* #about{
     background-color: black;
     color: white;
     text-align: center;
     margin: 20px;
-}
-/* ABOUT US CSS END */
+} */
+/* ABOUT US CSS END */ 
 
 /* contact start  */
 .footer{
@@ -126,4 +209,5 @@
     color: tomato;
 }
 /* contact end  */
+
 
