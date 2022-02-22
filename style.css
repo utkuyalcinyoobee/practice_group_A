@@ -9,6 +9,22 @@
 
 /* SERVICES CSS */
 
+#service {
+    background-color: navy;
+    color: cornflowerblue;
+
+}
+
+.various_services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#services_header {
+    text-align: center;
+    padding-top: 50px;
+}
+
 
 /* SERVICES CSS END */
 
