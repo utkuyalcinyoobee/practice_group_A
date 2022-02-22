@@ -35,10 +35,28 @@
 
 .placeholder_gridded {
     background-color: lightskyblue;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    color: darkblue;
+    margin: 30px;
+    padding: 10px;
+    /* border-radius: 10px; */
+    color: blue;
+    width: 100%;
+    /* display: flex; */
+    position: relative;
+    height: 450px;
+}
+
+.info_divs 
+{
+    position: absolute;
+    z-index: 10;
+    top: 200px;
+    left: 100px;
+}
+
+.placeholder_gridded img {
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 /* SERVICE HEADER */
@@ -62,7 +80,8 @@
 
 #services_header{
     /* margin-bottom: 200px; */
-    padding: 200px;
+    /* padding: 200px; */
+    padding-right: 100px;
     background:white;
     display: flex;
     /* justify-content: space-between; */
