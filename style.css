@@ -4,5 +4,25 @@
     text-align: justify;
 }
 /* ABOUT US CSS */
-
+#about{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
 /* ABOUT US CSS END */
+
+/* contact start  */
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.footer h1:hover{
+    color: tomato;
+}
+/* contact end  */
