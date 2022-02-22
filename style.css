@@ -18,7 +18,7 @@
 
 /* HEADER CSS END */
 
-/* ABOUT US CSS */
+
 body{
     padding: 0;
     margin: 0;
@@ -186,15 +186,6 @@ h2{
 /* SERVICES CSS END */
 
 
-/* ABOUT US CSS */
-/* #about{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 20px;
-} */
-/* ABOUT US CSS END */ 
-
 /* contact start  */
 .footer{
     display: flex;
@@ -208,6 +199,7 @@ h2{
 .footer h1:hover{
     color: tomato;
 }
-/* contact end  */
 
-
+.footer p:hover{
+    color: wheat;
+}
